@@ -1,0 +1,494 @@
+Jun 26 03:46:01 gits rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="1289" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Jun 26 09:30:01 gits auditd[1255]: Audit daemon rotating log files
+Jun 28 10:44:19 gits kernel: imklog 5.8.10, log source = /proc/kmsg started.
+Jun 28 10:44:19 gits rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="1360" x-info="http://www.rsyslog.com"] start
+Jun 28 10:44:19 gits kernel: Initializing cgroup subsys cpuset
+Jun 28 10:44:19 gits kernel: Initializing cgroup subsys cpu
+Jun 28 10:44:19 gits kernel: Linux version 2.6.32-573.22.1.el6.x86_64 (mockbuild@c6b8.bsys.dev.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-16) (GCC) ) #1 SMP Wed Mar 23 03:35:39 UTC 2016
+Jun 28 10:44:19 gits kernel: Command line: ro root=UUID=f8565d79-2b4c-4cbe-a3ca-60c12262959e rd_NO_LUKS rd_NO_LVM LANG=en_US.UTF-8 rd_NO_MD SYSFONT=latarcyrheb-sun16 crashkernel=auto  KEYBOARDTYPE=pc KEYTABLE=us rd_NO_DM rhgb quiet
+Jun 28 10:44:19 gits kernel: KERNEL supported cpus:
+Jun 28 10:44:19 gits kernel:  Intel GenuineIntel
+Jun 28 10:44:19 gits kernel:  AMD AuthenticAMD
+Jun 28 10:44:19 gits kernel:  Centaur CentaurHauls
+Jun 28 10:44:19 gits kernel: Disabled fast string operations
+Jun 28 10:44:19 gits kernel: BIOS-provided physical RAM map:
+Jun 28 10:44:19 gits kernel: BIOS-e820: 0000000000000000 - 000000000009f400 (usable)
+Jun 28 10:44:19 gits kernel: BIOS-e820: 000000000009f400 - 00000000000a0000 (reserved)
+Jun 28 10:44:19 gits kernel: BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved)
+Jun 28 10:44:19 gits kernel: BIOS-e820: 0000000000100000 - 00000000dfffd000 (usable)
+Jun 28 10:44:19 gits kernel: BIOS-e820: 00000000dfffd000 - 00000000e0000000 (reserved)
+Jun 28 10:44:19 gits kernel: BIOS-e820: 00000000fffbc000 - 0000000100000000 (reserved)
+Jun 28 10:44:19 gits kernel: BIOS-e820: 0000000100000000 - 0000000120000000 (usable)
+Jun 28 10:44:19 gits kernel: DMI 2.4 present.
+Jun 28 10:44:19 gits kernel: SMBIOS version 2.4 @ 0xFDA10
+Jun 28 10:44:19 gits kernel: Hypervisor detected: KVM
+Jun 28 10:44:19 gits kernel: No AGP bridge found
+Jun 28 10:44:19 gits kernel: last_pfn = 0x120000 max_arch_pfn = 0x400000000
+Jun 28 10:44:19 gits kernel: PAT not supported by CPU.
+Jun 28 10:44:19 gits kernel: last_pfn = 0xdfffd max_arch_pfn = 0x400000000
+Jun 28 10:44:19 gits kernel: init_memory_mapping: 0000000000000000-00000000dfffd000
+Jun 28 10:44:19 gits kernel: init_memory_mapping: 0000000100000000-0000000120000000
+Jun 28 10:44:19 gits kernel: RAMDISK: 367fe000 - 37fef245
+Jun 28 10:44:19 gits kernel: ACPI: Deleted _OSI()
+Jun 28 10:44:19 gits kernel: ACPI: Deleted _OSI()
+Jun 28 10:44:19 gits kernel: ACPI: RSDP 00000000000fd9e0 00014 (v00 BOCHS )
+Jun 28 10:44:19 gits kernel: ACPI: RSDT 00000000dfffd590 00034 (v01 BOCHS  BXPCRSDT 00000001 BXPC 00000001)
+Jun 28 10:44:19 gits kernel: ACPI: FACP 00000000dffffdf0 00074 (v01 BOCHS  BXPCFACP 00000001 BXPC 00000001)
+Jun 28 10:44:19 gits kernel: ACPI: DSDT 00000000dfffd8d0 024A2 (v01   BXPC   BXDSDT 00000001 INTL 20090123)
+Jun 28 10:44:19 gits kernel: ACPI: FACS 00000000dffffd80 00040
+Jun 28 10:44:19 gits kernel: ACPI: SSDT 00000000dfffd7d0 000FF (v01 BOCHS  BXPCSSDT 00000001 BXPC 00000001)
+Jun 28 10:44:19 gits kernel: ACPI: APIC 00000000dfffd6e0 00080 (v01 BOCHS  BXPCAPIC 00000001 BXPC 00000001)
+Jun 28 10:44:19 gits kernel: ACPI: SSDT 00000000dfffd5d0 0010F (v01   BXPC BXSSDTPC 00000001 INTL 20090123)
+Jun 28 10:44:19 gits kernel: Setting APIC routing to flat.
+Jun 28 10:44:19 gits kernel: No NUMA configuration found
+Jun 28 10:44:19 gits kernel: Faking a node at 0000000000000000-0000000120000000
+Jun 28 10:44:19 gits kernel: Bootmem setup node 0 0000000000000000-0000000120000000
+Jun 28 10:44:19 gits kernel:  NODE_DATA [000000000000d000 - 0000000000040fff]
+Jun 28 10:44:19 gits kernel:  bootmap [0000000000041000 -  0000000000064fff] pages 24
+Jun 28 10:44:19 gits kernel: (8 early reservations) ==> bootmem [0000000000 - 0120000000]
+Jun 28 10:44:19 gits kernel:  #0 [0000000000 - 0000001000]   BIOS data page ==> [0000000000 - 0000001000]
+Jun 28 10:44:19 gits kernel:  #1 [0000006000 - 0000008000]       TRAMPOLINE ==> [0000006000 - 0000008000]
+Jun 28 10:44:19 gits kernel:  #2 [0001000000 - 000203cb64]    TEXT DATA BSS ==> [0001000000 - 000203cb64]
+Jun 28 10:44:19 gits kernel:  #3 [00367fe000 - 0037fef245]          RAMDISK ==> [00367fe000 - 0037fef245]
+Jun 28 10:44:19 gits kernel:  #4 [000009f400 - 0000100000]    BIOS reserved ==> [000009f400 - 0000100000]
+Jun 28 10:44:19 gits kernel:  #5 [000203d000 - 000203d0a5]              BRK ==> [000203d000 - 000203d0a5]
+Jun 28 10:44:19 gits kernel:  #6 [0000008000 - 000000c000]          PGTABLE ==> [0000008000 - 000000c000]
+Jun 28 10:44:19 gits kernel:  #7 [000000c000 - 000000d000]          PGTABLE ==> [000000c000 - 000000d000]
+Jun 28 10:44:19 gits kernel: found SMP MP-table at [ffff8800000fda30] fda30
+Jun 28 10:44:19 gits kernel: Reserving 129MB of memory at 48MB for crashkernel (System RAM: 4608MB)
+Jun 28 10:44:19 gits kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+Jun 28 10:44:19 gits kernel: kvm-clock: cpu 0, msr 0:1c35941, boot clock
+Jun 28 10:44:19 gits kernel: Zone PFN ranges:
+Jun 28 10:44:19 gits kernel:  DMA      0x00000001 -> 0x00001000
+Jun 28 10:44:19 gits kernel:  DMA32    0x00001000 -> 0x00100000
+Jun 28 10:44:19 gits kernel:  Normal   0x00100000 -> 0x00120000
+Jun 28 10:44:19 gits kernel: Movable zone start PFN for each node
+Jun 28 10:44:19 gits kernel: early_node_map[3] active PFN ranges
+Jun 28 10:44:19 gits kernel:    0: 0x00000001 -> 0x0000009f
+Jun 28 10:44:19 gits kernel:    0: 0x00000100 -> 0x000dfffd
+Jun 28 10:44:19 gits kernel:    0: 0x00100000 -> 0x00120000
+Jun 28 10:44:19 gits kernel: ACPI: PM-Timer IO Port: 0xb008
+Jun 28 10:44:19 gits kernel: Setting APIC routing to flat.
+Jun 28 10:44:19 gits kernel: ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Jun 28 10:44:19 gits kernel: ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Jun 28 10:44:19 gits kernel: ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Jun 28 10:44:19 gits kernel: ACPI: IOAPIC (id[0x00] address[0xfec00000] gsi_base[0])
+Jun 28 10:44:19 gits kernel: IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Jun 28 10:44:19 gits kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Jun 28 10:44:19 gits kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Jun 28 10:44:19 gits kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Jun 28 10:44:19 gits kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Jun 28 10:44:19 gits kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Jun 28 10:44:19 gits kernel: Using ACPI (MADT) for SMP configuration information
+Jun 28 10:44:19 gits kernel: SMP: Allowing 2 CPUs, 0 hotplug CPUs
+Jun 28 10:44:19 gits kernel: PM: Registered nosave memory: 000000000009f000 - 00000000000a0000
+Jun 28 10:44:19 gits kernel: PM: Registered nosave memory: 00000000000a0000 - 00000000000f0000
+Jun 28 10:44:19 gits kernel: PM: Registered nosave memory: 00000000000f0000 - 0000000000100000
+Jun 28 10:44:19 gits kernel: PM: Registered nosave memory: 00000000dfffd000 - 00000000e0000000
+Jun 28 10:44:19 gits kernel: PM: Registered nosave memory: 00000000e0000000 - 00000000fffbc000
+Jun 28 10:44:19 gits kernel: PM: Registered nosave memory: 00000000fffbc000 - 0000000100000000
+Jun 28 10:44:19 gits kernel: Allocating PCI resources starting at e0000000 (gap: e0000000:1ffbc000)
+Jun 28 10:44:19 gits kernel: Booting paravirtualized kernel on KVM
+Jun 28 10:44:19 gits kernel: NR_CPUS:4096 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+Jun 28 10:44:19 gits kernel: PERCPU: Embedded 30 pages/cpu @ffff880028200000 s91224 r8192 d23464 u1048576
+Jun 28 10:44:19 gits kernel: pcpu-alloc: s91224 r8192 d23464 u1048576 alloc=1*2097152
+Jun 28 10:44:19 gits kernel: pcpu-alloc: [0] 0 1 
+Jun 28 10:44:19 gits kernel: kvm-clock: cpu 0, msr 0:28215941, primary cpu clock
+Jun 28 10:44:19 gits kernel: kvm-stealtime: cpu 0, msr 2820d900
+Jun 28 10:44:19 gits kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 1032243
+Jun 28 10:44:19 gits kernel: Policy zone: Normal
+Jun 28 10:44:19 gits kernel: Kernel command line: ro root=UUID=f8565d79-2b4c-4cbe-a3ca-60c12262959e rd_NO_LUKS rd_NO_LVM LANG=en_US.UTF-8 rd_NO_MD SYSFONT=latarcyrheb-sun16 crashkernel=129M@0M  KEYBOARDTYPE=pc KEYTABLE=us rd_NO_DM rhgb quiet
+Jun 28 10:44:19 gits kernel: PID hash table entries: 4096 (order: 3, 32768 bytes)
+Jun 28 10:44:19 gits kernel: Checking aperture...
+Jun 28 10:44:19 gits kernel: No AGP bridge found
+Jun 28 10:44:19 gits kernel: Memory: 3894456k/4718592k available (5398k kernel code, 524692k absent, 299444k reserved, 7010k data, 1296k init)
+Jun 28 10:44:19 gits kernel: Hierarchical RCU implementation.
+Jun 28 10:44:19 gits kernel: NR_IRQS:33024 nr_irqs:424
+Jun 28 10:44:19 gits kernel: Console: colour VGA+ 80x25
+Jun 28 10:44:19 gits kernel: console [tty0] enabled
+Jun 28 10:44:19 gits kernel: allocated 16777216 bytes of page_cgroup
+Jun 28 10:44:19 gits kernel: please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Jun 28 10:44:19 gits kernel: Detected 1999.999 MHz processor.
+Jun 28 10:44:19 gits kernel: Calibrating delay loop (skipped) preset value.. 3999.99 BogoMIPS (lpj=1999999)
+Jun 28 10:44:19 gits kernel: pid_max: default: 32768 minimum: 301
+Jun 28 10:44:19 gits kernel: Security Framework initialized
+Jun 28 10:44:19 gits kernel: SELinux:  Initializing.
+Jun 28 10:44:19 gits kernel: Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes)
+Jun 28 10:44:19 gits kernel: Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Jun 28 10:44:19 gits kernel: Mount-cache hash table entries: 256
+Jun 28 10:44:19 gits kernel: Initializing cgroup subsys ns
+Jun 28 10:44:19 gits kernel: Initializing cgroup subsys cpuacct
+Jun 28 10:44:19 gits kernel: Initializing cgroup subsys memory
+Jun 28 10:44:19 gits kernel: Initializing cgroup subsys devices
+Jun 28 10:44:19 gits kernel: Initializing cgroup subsys freezer
+Jun 28 10:44:19 gits kernel: Initializing cgroup subsys net_cls
+Jun 28 10:44:19 gits kernel: Initializing cgroup subsys blkio
+Jun 28 10:44:19 gits kernel: Initializing cgroup subsys perf_event
+Jun 28 10:44:19 gits kernel: Initializing cgroup subsys net_prio
+Jun 28 10:44:19 gits kernel: Disabled fast string operations
+Jun 28 10:44:19 gits kernel: mce: CPU supports 10 MCE banks
+Jun 28 10:44:19 gits kernel: alternatives: switching to unfair spinlock
+Jun 28 10:44:19 gits kernel: ACPI: Core revision 20090903
+Jun 28 10:44:19 gits kernel: ftrace: converting mcount calls to 0f 1f 44 00 00
+Jun 28 10:44:19 gits kernel: ftrace: allocating 22135 entries in 87 pages
+Jun 28 10:44:19 gits kernel: APIC routing finalized to flat.
+Jun 28 10:44:19 gits kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Jun 28 10:44:19 gits kernel: CPU0: Intel QEMU Virtual CPU version (cpu64-rhel6) stepping 03
+Jun 28 10:44:19 gits kernel: Performance Events: Broken PMU hardware detected, using software events only.
+Jun 28 10:44:19 gits kernel: NMI watchdog disabled (cpu0): hardware events not enabled
+Jun 28 10:44:19 gits kernel: Booting Node   0, Processors  #1 Ok.
+Jun 28 10:44:19 gits kernel: kvm-clock: cpu 1, msr 0:28315941, secondary cpu clock
+Jun 28 10:44:19 gits kernel: Disabled fast string operations
+Jun 28 10:44:19 gits kernel: kvm-stealtime: cpu 1, msr 2830d900
+Jun 28 10:44:19 gits kernel: Brought up 2 CPUs
+Jun 28 10:44:19 gits kernel: Total of 2 processors activated (7999.99 BogoMIPS).
+Jun 28 10:44:19 gits kernel: devtmpfs: initialized
+Jun 28 10:44:19 gits kernel: regulator: core version 0.5
+Jun 28 10:44:19 gits kernel: NET: Registered protocol family 16
+Jun 28 10:44:19 gits kernel: ACPI: bus type pci registered
+Jun 28 10:44:19 gits kernel: PCI: Using configuration type 1 for base access
+Jun 28 10:44:19 gits kernel: bio: create slab <bio-0> at 0
+Jun 28 10:44:19 gits kernel: ACPI: Interpreter enabled
+Jun 28 10:44:19 gits kernel: ACPI: (supports S0 S5)
+Jun 28 10:44:19 gits kernel: ACPI: Using IOAPIC for interrupt routing
+Jun 28 10:44:19 gits kernel: ACPI: No dock devices found.
+Jun 28 10:44:19 gits kernel: PCI: Ignoring host bridge windows from ACPI; if necessary, use "pci=use_crs" and report a bug
+Jun 28 10:44:19 gits kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Jun 28 10:44:19 gits kernel: PCI host bridge to bus 0000:00
+Jun 28 10:44:19 gits kernel: pci_bus 0000:00: root bus resource [io  0x0000-0xffff]
+Jun 28 10:44:19 gits kernel: pci_bus 0000:00: root bus resource [mem 0x00000000-0x3fffffffffff]
+Jun 28 10:44:19 gits kernel: pci 0000:00:01.3: quirk: [io  0xb000-0xb03f] claimed by PIIX4 ACPI
+Jun 28 10:44:19 gits kernel: pci 0000:00:01.3: quirk: [io  0xb100-0xb10f] claimed by PIIX4 SMB
+Jun 28 10:44:19 gits kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Jun 28 10:44:19 gits kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Jun 28 10:44:19 gits kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Jun 28 10:44:19 gits kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Jun 28 10:44:19 gits kernel: ACPI: PCI Interrupt Link [LNKS] (IRQs *9)
+Jun 28 10:44:19 gits kernel: vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Jun 28 10:44:19 gits kernel: vgaarb: loaded
+Jun 28 10:44:19 gits kernel: vgaarb: bridge control possible 0000:00:02.0
+Jun 28 10:44:19 gits kernel: SCSI subsystem initialized
+Jun 28 10:44:19 gits kernel: usbcore: registered new interface driver usbfs
+Jun 28 10:44:19 gits kernel: usbcore: registered new interface driver hub
+Jun 28 10:44:19 gits kernel: usbcore: registered new device driver usb
+Jun 28 10:44:19 gits kernel: PCI: Using ACPI for IRQ routing
+Jun 28 10:44:19 gits kernel: NetLabel: Initializing
+Jun 28 10:44:19 gits kernel: NetLabel:  domain hash size = 128
+Jun 28 10:44:19 gits kernel: NetLabel:  protocols = UNLABELED CIPSOv4
+Jun 28 10:44:19 gits kernel: NetLabel:  unlabeled traffic allowed by default
+Jun 28 10:44:19 gits kernel: Switching to clocksource kvm-clock
+Jun 28 10:44:19 gits kernel: pnp: PnP ACPI init
+Jun 28 10:44:19 gits kernel: ACPI: bus type pnp registered
+Jun 28 10:44:19 gits kernel: pnp: PnP ACPI: found 6 devices
+Jun 28 10:44:19 gits kernel: ACPI: ACPI bus type pnp unregistered
+Jun 28 10:44:19 gits kernel: NET: Registered protocol family 2
+Jun 28 10:44:19 gits kernel: IP route cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Jun 28 10:44:19 gits kernel: TCP established hash table entries: 524288 (order: 11, 8388608 bytes)
+Jun 28 10:44:19 gits kernel: TCP bind hash table entries: 65536 (order: 8, 1048576 bytes)
+Jun 28 10:44:19 gits kernel: TCP: Hash tables configured (established 524288 bind 65536)
+Jun 28 10:44:19 gits kernel: TCP reno registered
+Jun 28 10:44:19 gits kernel: NET: Registered protocol family 1
+Jun 28 10:44:19 gits kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Jun 28 10:44:19 gits kernel: pci 0000:00:01.0: PIIX3: Enabling Passive Release
+Jun 28 10:44:19 gits kernel: pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Jun 28 10:44:19 gits kernel: ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 11
+Jun 28 10:44:19 gits kernel: pci 0000:00:05.0: PCI INT D -> Link[LNKD] -> GSI 11 (level, high) -> IRQ 11
+Jun 28 10:44:19 gits kernel: pci 0000:00:05.0: PCI INT D disabled
+Jun 28 10:44:19 gits kernel: pci 0000:00:05.1: PCI INT D -> Link[LNKD] -> GSI 11 (level, high) -> IRQ 11
+Jun 28 10:44:19 gits kernel: pci 0000:00:05.1: PCI INT D disabled
+Jun 28 10:44:19 gits kernel: pci 0000:00:05.2: PCI INT D -> Link[LNKD] -> GSI 11 (level, high) -> IRQ 11
+Jun 28 10:44:19 gits kernel: pci 0000:00:05.2: PCI INT D disabled
+Jun 28 10:44:19 gits kernel: pci 0000:00:05.7: PCI INT D -> Link[LNKD] -> GSI 11 (level, high) -> IRQ 11
+Jun 28 10:44:19 gits kernel: pci 0000:00:05.7: PCI INT D disabled
+Jun 28 10:44:19 gits kernel: Trying to unpack rootfs image as initramfs...
+Jun 28 10:44:19 gits kernel: Freeing initrd memory: 24516k freed
+Jun 28 10:44:19 gits kernel: PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Jun 28 10:44:19 gits kernel: Placing 64MB software IO TLB between ffff880020000000 - ffff880024000000
+Jun 28 10:44:19 gits kernel: software IO TLB at phys 0x20000000 - 0x24000000
+Jun 28 10:44:19 gits kernel: futex hash table entries: 512 (order: 3, 32768 bytes)
+Jun 28 10:44:19 gits kernel: audit: initializing netlink socket (disabled)
+Jun 28 10:44:19 gits kernel: type=2000 audit(1467110504.593:1): initialized
+Jun 28 10:44:19 gits kernel: HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Jun 28 10:44:19 gits kernel: VFS: Disk quotas dquot_6.5.2
+Jun 28 10:44:19 gits kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Jun 28 10:44:19 gits kernel: msgmni has been set to 7654
+Jun 28 10:44:19 gits kernel: ksign: Installing public key data
+Jun 28 10:44:19 gits kernel: Loading keyring
+Jun 28 10:44:19 gits kernel: - Added public key E2BE056778CD774F
+Jun 28 10:44:19 gits kernel: - User ID: CentOS (Kernel Module GPG key)
+Jun 28 10:44:19 gits kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+Jun 28 10:44:19 gits kernel: io scheduler noop registered
+Jun 28 10:44:19 gits kernel: io scheduler anticipatory registered
+Jun 28 10:44:19 gits kernel: io scheduler deadline registered
+Jun 28 10:44:19 gits kernel: io scheduler cfq registered (default)
+Jun 28 10:44:19 gits kernel: pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Jun 28 10:44:19 gits kernel: pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Jun 28 10:44:19 gits kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [1] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [2] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [3] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [4] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [5] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [6] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [7] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [8] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [9] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [10] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [11] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [12] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [13] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [14] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [15] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [16] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [17] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [18] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [19] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [20] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [21] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [22] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [23] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [24] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [25] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [26] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [27] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [28] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [29] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [30] registered
+Jun 28 10:44:19 gits kernel: acpiphp: Slot [31] registered
+Jun 28 10:44:19 gits kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Jun 28 10:44:19 gits kernel: ACPI: Power Button [PWRF]
+Jun 28 10:44:19 gits kernel: [Firmware Bug]: No valid trip found
+Jun 28 10:44:19 gits kernel: GHES: HEST is not enabled!
+Jun 28 10:44:19 gits kernel: Non-volatile memory driver v1.3
+Jun 28 10:44:19 gits kernel: Linux agpgart interface v0.103
+Jun 28 10:44:19 gits kernel: crash memory driver: version 1.1
+Jun 28 10:44:19 gits kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Jun 28 10:44:19 gits kernel: serial8250: ttyS0 at I/O 0x3f8 (irq = 4) is a 16550A
+Jun 28 10:44:19 gits kernel: 00:05: ttyS0 at I/O 0x3f8 (irq = 4) is a 16550A
+Jun 28 10:44:19 gits kernel: brd: module loaded
+Jun 28 10:44:19 gits kernel: loop: module loaded
+Jun 28 10:44:19 gits kernel: input: Macintosh mouse button emulation as /devices/virtual/input/input1
+Jun 28 10:44:19 gits kernel: Fixed MDIO Bus: probed
+Jun 28 10:44:19 gits kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Jun 28 10:44:19 gits kernel: ehci_hcd 0000:00:05.7: PCI INT D -> Link[LNKD] -> GSI 11 (level, high) -> IRQ 11
+Jun 28 10:44:19 gits kernel: ehci_hcd 0000:00:05.7: EHCI Host Controller
+Jun 28 10:44:19 gits kernel: ehci_hcd 0000:00:05.7: new USB bus registered, assigned bus number 1
+Jun 28 10:44:19 gits kernel: ehci_hcd 0000:00:05.7: irq 11, io mem 0xf2044000
+Jun 28 10:44:19 gits kernel: ehci_hcd 0000:00:05.7: USB 2.0 started, EHCI 1.00
+Jun 28 10:44:19 gits kernel: usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Jun 28 10:44:19 gits kernel: usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jun 28 10:44:19 gits kernel: usb usb1: Product: EHCI Host Controller
+Jun 28 10:44:19 gits kernel: usb usb1: Manufacturer: Linux 2.6.32-573.22.1.el6.x86_64 ehci_hcd
+Jun 28 10:44:19 gits kernel: usb usb1: SerialNumber: 0000:00:05.7
+Jun 28 10:44:19 gits kernel: usb usb1: configuration #1 chosen from 1 choice
+Jun 28 10:44:19 gits kernel: hub 1-0:1.0: USB hub found
+Jun 28 10:44:19 gits kernel: hub 1-0:1.0: 6 ports detected
+Jun 28 10:44:19 gits kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Jun 28 10:44:19 gits kernel: uhci_hcd: USB Universal Host Controller Interface driver
+Jun 28 10:44:19 gits kernel: uhci_hcd 0000:00:05.0: PCI INT D -> Link[LNKD] -> GSI 11 (level, high) -> IRQ 11
+Jun 28 10:44:19 gits kernel: uhci_hcd 0000:00:05.0: UHCI Host Controller
+Jun 28 10:44:19 gits kernel: uhci_hcd 0000:00:05.0: new USB bus registered, assigned bus number 2
+Jun 28 10:44:19 gits kernel: uhci_hcd 0000:00:05.0: irq 11, io base 0x0000c200
+Jun 28 10:44:19 gits kernel: usb usb2: New USB device found, idVendor=1d6b, idProduct=0001
+Jun 28 10:44:19 gits kernel: usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jun 28 10:44:19 gits kernel: usb usb2: Product: UHCI Host Controller
+Jun 28 10:44:19 gits kernel: usb usb2: Manufacturer: Linux 2.6.32-573.22.1.el6.x86_64 uhci_hcd
+Jun 28 10:44:19 gits kernel: usb usb2: SerialNumber: 0000:00:05.0
+Jun 28 10:44:19 gits kernel: usb usb2: configuration #1 chosen from 1 choice
+Jun 28 10:44:19 gits kernel: hub 2-0:1.0: USB hub found
+Jun 28 10:44:19 gits kernel: hub 2-0:1.0: 2 ports detected
+Jun 28 10:44:19 gits kernel: uhci_hcd 0000:00:05.1: PCI INT D -> Link[LNKD] -> GSI 11 (level, high) -> IRQ 11
+Jun 28 10:44:19 gits kernel: uhci_hcd 0000:00:05.1: UHCI Host Controller
+Jun 28 10:44:19 gits kernel: uhci_hcd 0000:00:05.1: new USB bus registered, assigned bus number 3
+Jun 28 10:44:19 gits kernel: uhci_hcd 0000:00:05.1: irq 11, io base 0x0000c220
+Jun 28 10:44:19 gits kernel: usb usb3: New USB device found, idVendor=1d6b, idProduct=0001
+Jun 28 10:44:19 gits kernel: usb usb3: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jun 28 10:44:19 gits kernel: usb usb3: Product: UHCI Host Controller
+Jun 28 10:44:19 gits kernel: usb usb3: Manufacturer: Linux 2.6.32-573.22.1.el6.x86_64 uhci_hcd
+Jun 28 10:44:19 gits kernel: usb usb3: SerialNumber: 0000:00:05.1
+Jun 28 10:44:19 gits kernel: usb usb3: configuration #1 chosen from 1 choice
+Jun 28 10:44:19 gits kernel: hub 3-0:1.0: USB hub found
+Jun 28 10:44:19 gits kernel: hub 3-0:1.0: 2 ports detected
+Jun 28 10:44:19 gits kernel: uhci_hcd 0000:00:05.2: PCI INT D -> Link[LNKD] -> GSI 11 (level, high) -> IRQ 11
+Jun 28 10:44:19 gits kernel: uhci_hcd 0000:00:05.2: UHCI Host Controller
+Jun 28 10:44:19 gits kernel: uhci_hcd 0000:00:05.2: new USB bus registered, assigned bus number 4
+Jun 28 10:44:19 gits kernel: uhci_hcd 0000:00:05.2: irq 11, io base 0x0000c240
+Jun 28 10:44:19 gits kernel: usb usb4: New USB device found, idVendor=1d6b, idProduct=0001
+Jun 28 10:44:19 gits kernel: usb usb4: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Jun 28 10:44:19 gits kernel: usb usb4: Product: UHCI Host Controller
+Jun 28 10:44:19 gits kernel: usb usb4: Manufacturer: Linux 2.6.32-573.22.1.el6.x86_64 uhci_hcd
+Jun 28 10:44:19 gits kernel: usb usb4: SerialNumber: 0000:00:05.2
+Jun 28 10:44:19 gits kernel: usb usb4: configuration #1 chosen from 1 choice
+Jun 28 10:44:19 gits kernel: hub 4-0:1.0: USB hub found
+Jun 28 10:44:19 gits kernel: hub 4-0:1.0: 2 ports detected
+Jun 28 10:44:19 gits kernel: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Jun 28 10:44:19 gits kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Jun 28 10:44:19 gits kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Jun 28 10:44:19 gits kernel: mice: PS/2 mouse device common for all mice
+Jun 28 10:44:19 gits kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Jun 28 10:44:19 gits kernel: rtc_cmos 00:01: RTC can wake from S4
+Jun 28 10:44:19 gits kernel: rtc_cmos 00:01: rtc core: registered rtc_cmos as rtc0
+Jun 28 10:44:19 gits kernel: rtc0: alarms up to one day, 114 bytes nvram
+Jun 28 10:44:19 gits kernel: cpuidle: using governor ladder
+Jun 28 10:44:19 gits kernel: cpuidle: using governor menu
+Jun 28 10:44:19 gits kernel: EFI Variables Facility v0.08 2004-May-17
+Jun 28 10:44:19 gits kernel: usbcore: registered new interface driver hiddev
+Jun 28 10:44:19 gits kernel: usbcore: registered new interface driver usbhid
+Jun 28 10:44:19 gits kernel: usbhid: v2.6:USB HID core driver
+Jun 28 10:44:19 gits kernel: GRE over IPv4 demultiplexor driver
+Jun 28 10:44:19 gits kernel: TCP cubic registered
+Jun 28 10:44:19 gits kernel: Initializing XFRM netlink socket
+Jun 28 10:44:19 gits kernel: NET: Registered protocol family 17
+Jun 28 10:44:19 gits kernel: registered taskstats version 1
+Jun 28 10:44:19 gits kernel: rtc_cmos 00:01: setting system clock to 2016-06-28 10:41:43 UTC (1467110503)
+Jun 28 10:44:19 gits kernel: Initalizing network drop monitor service
+Jun 28 10:44:19 gits kernel: Freeing unused kernel memory: 1296k freed
+Jun 28 10:44:19 gits kernel: Write protecting the kernel read-only data: 10240k
+Jun 28 10:44:19 gits kernel: Freeing unused kernel memory: 728k freed
+Jun 28 10:44:19 gits kernel: Freeing unused kernel memory: 1572k freed
+Jun 28 10:44:19 gits kernel: dracut: dracut-004-388.el6
+Jun 28 10:44:19 gits kernel: dracut: rd_NO_LUKS: removing cryptoluks activation
+Jun 28 10:44:19 gits kernel: dracut: rd_NO_LVM: removing LVM activation
+Jun 28 10:44:19 gits kernel: device-mapper: uevent: version 1.0.3
+Jun 28 10:44:19 gits kernel: device-mapper: ioctl: 4.29.0-ioctl (2014-10-28) initialised: dm-devel@redhat.com
+Jun 28 10:44:19 gits kernel: udev: starting version 147
+Jun 28 10:44:19 gits kernel: dracut: Starting plymouth daemon
+Jun 28 10:44:19 gits kernel: dracut: rd_NO_DM: removing DM RAID activation
+Jun 28 10:44:19 gits kernel: dracut: rd_NO_MD: removing MD RAID activation
+Jun 28 10:44:19 gits kernel: scsi0 : ata_piix
+Jun 28 10:44:19 gits kernel: scsi1 : ata_piix
+Jun 28 10:44:19 gits kernel: ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc000 irq 14
+Jun 28 10:44:19 gits kernel: ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc008 irq 15
+Jun 28 10:44:19 gits kernel: ata1.00: ATA-7: QEMU HARDDISK, 0.12.1, max UDMA/100
+Jun 28 10:44:19 gits kernel: ata1.00: 83886080 sectors, multi 16: LBA48 
+Jun 28 10:44:19 gits kernel: ata1.00: configured for MWDMA2
+Jun 28 10:44:19 gits kernel: scsi 0:0:0:0: Direct-Access     ATA      QEMU HARDDISK    0.12 PQ: 0 ANSI: 5
+Jun 28 10:44:19 gits kernel: ata2.00: ATAPI: QEMU DVD-ROM, 0.12.1, max UDMA/100
+Jun 28 10:44:19 gits kernel: ata2.00: configured for MWDMA2
+Jun 28 10:44:19 gits kernel: scsi 1:0:0:0: CD-ROM            QEMU     QEMU DVD-ROM     0.12 PQ: 0 ANSI: 5
+Jun 28 10:44:19 gits kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input3
+Jun 28 10:44:19 gits kernel: ACPI: PCI Interrupt Link [LNKB] enabled at IRQ 10
+Jun 28 10:44:19 gits kernel: virtio-pci 0000:00:06.0: PCI INT A -> Link[LNKB] -> GSI 10 (level, high) -> IRQ 10
+Jun 28 10:44:19 gits kernel: sd 0:0:0:0: [sda] 83886080 512-byte logical blocks: (42.9 GB/40.0 GiB)
+Jun 28 10:44:19 gits kernel: sd 0:0:0:0: [sda] Write Protect is off
+Jun 28 10:44:19 gits kernel: sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Jun 28 10:44:19 gits kernel: sda:
+Jun 28 10:44:19 gits kernel: Refined TSC clocksource calibration: 1999.998 MHz.
+Jun 28 10:44:19 gits kernel: sda1 sda2 sda3
+Jun 28 10:44:19 gits kernel: sd 0:0:0:0: [sda] Attached SCSI disk
+Jun 28 10:44:19 gits kernel: sr0: scsi3-mmc drive: 4x/4x xa/form2 tray
+Jun 28 10:44:19 gits kernel: Uniform CD-ROM driver Revision: 3.20
+Jun 28 10:44:19 gits kernel: EXT4-fs (sda3): INFO: recovery required on readonly filesystem
+Jun 28 10:44:19 gits kernel: EXT4-fs (sda3): write access will be enabled during recovery
+Jun 28 10:44:19 gits kernel: EXT4-fs (sda3): recovery complete
+Jun 28 10:44:19 gits kernel: EXT4-fs (sda3): mounted filesystem with ordered data mode. Opts: 
+Jun 28 10:44:19 gits kernel: dracut: Mounted root filesystem /dev/sda3
+Jun 28 10:44:19 gits kernel: dracut: Loading SELinux policy
+Jun 28 10:44:19 gits kernel: type=1404 audit(1467110518.733:2): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295
+Jun 28 10:44:19 gits kernel: type=1403 audit(1467110520.449:3): policy loaded auid=4294967295 ses=4294967295
+Jun 28 10:44:19 gits kernel: dracut: 
+Jun 28 10:44:19 gits kernel: dracut: Switching root
+Jun 28 10:44:19 gits kernel: udev: starting version 147
+Jun 28 10:44:19 gits kernel: piix4_smbus 0000:00:01.3: SMBus Host Controller at 0xb100, revision 0
+Jun 28 10:44:19 gits kernel: 8139cp: 10/100 PCI Ethernet driver v1.3 (Mar 22, 2004)
+Jun 28 10:44:19 gits kernel: ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 11
+Jun 28 10:44:19 gits kernel: 8139cp 0000:00:03.0: PCI INT A -> Link[LNKC] -> GSI 11 (level, high) -> IRQ 11
+Jun 28 10:44:19 gits kernel: eth0: RTL-8139C+ at 0xffffc900019d6000, 52:54:00:cf:ba:b3, IRQ 11
+Jun 28 10:44:19 gits kernel: 8139too Fast Ethernet driver 0.9.28
+Jun 28 10:44:19 gits kernel: snd_hda_intel 0000:00:04.0: PCI INT A -> Link[LNKD] -> GSI 11 (level, high) -> IRQ 11
+Jun 28 10:44:19 gits kernel: sound hdaudioC0D0: autoconfig for ID 22: line_outs=1 (0x3/0x0/0x0/0x0/0x0) type:line
+Jun 28 10:44:19 gits kernel: sound hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+Jun 28 10:44:19 gits kernel: sound hdaudioC0D0:    hp_outs=0 (0x0/0x0/0x0/0x0/0x0)
+Jun 28 10:44:19 gits kernel: sound hdaudioC0D0:    mono: mono_out=0x0
+Jun 28 10:44:19 gits kernel: sound hdaudioC0D0:    inputs:
+Jun 28 10:44:19 gits kernel: sound hdaudioC0D0:      Line=0x5
+Jun 28 10:44:19 gits kernel: sd 0:0:0:0: Attached scsi generic sg0 type 0
+Jun 28 10:44:19 gits kernel: sr 1:0:0:0: Attached scsi generic sg1 type 5
+Jun 28 10:44:19 gits kernel: microcode: CPU0 sig=0x6d3, pf=0x1, revision=0x1
+Jun 28 10:44:19 gits kernel: platform microcode: firmware: requesting intel-ucode/06-0d-03
+Jun 28 10:44:19 gits kernel: microcode: CPU1 sig=0x6d3, pf=0x1, revision=0x1
+Jun 28 10:44:19 gits kernel: platform microcode: firmware: requesting intel-ucode/06-0d-03
+Jun 28 10:44:19 gits kernel: Microcode Update Driver: v2.00 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+Jun 28 10:44:19 gits kernel: EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: 
+Jun 28 10:44:19 gits kernel: Adding 4194300k swap on /dev/sda2.  Priority:-1 extents:1 across:4194300k 
+Jun 28 10:44:19 gits kernel: NET: Registered protocol family 10
+Jun 28 10:44:19 gits kernel: lo: Disabled Privacy Extensions
+Jun 28 10:44:19 gits kernel: ip6_tables: (C) 2000-2006 Netfilter Core Team
+Jun 28 10:44:19 gits kernel: nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+Jun 28 10:44:19 gits kernel: ip_tables: (C) 2000-2006 Netfilter Core Team
+Jun 28 10:44:19 gits kernel: eth0: link up, 100Mbps, full-duplex, lpa 0x05E1
+Jun 28 10:44:19 gits kernel: type=1305 audit(1467090843.922:4): audit_pid=1326 old=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:auditd_t:s0 res=1
+Jun 28 10:45:03 gits NetworkManager[1446]: <info> NetworkManager (version 0.8.1-99.el6) is starting...
+Jun 28 10:45:03 gits NetworkManager[1446]: <info> Read config file /etc/NetworkManager/NetworkManager.conf
+Jun 28 10:45:03 gits NetworkManager[1446]: <info> trying to start the modem manager...
+Jun 28 10:45:04 gits rpc.statd[1469]: Version 1.2.3 starting
+Jun 28 10:45:07 gits modem-manager: ModemManager (version 0.4.0-5.git20100628.el6) starting...
+Jun 28 10:45:09 gits sm-notify[1470]: Version 1.2.3 starting
+Jun 28 10:45:12 gits modem-manager: Loaded plugin ZTE
+Jun 28 10:45:16 gits modem-manager: Loaded plugin Option High-Speed
+Jun 28 10:45:17 gits modem-manager: Loaded plugin Longcheer
+Jun 28 10:45:17 gits modem-manager: Loaded plugin Gobi
+Jun 28 10:45:19 gits modem-manager: Loaded plugin Generic
+Jun 28 10:45:21 gits modem-manager: Loaded plugin Nokia
+Jun 28 10:45:22 gits modem-manager: Loaded plugin Option
+Jun 28 10:45:22 gits modem-manager: Loaded plugin Sierra
+Jun 28 10:45:22 gits modem-manager: Loaded plugin Ericsson MBM
+Jun 28 10:45:22 gits modem-manager: Loaded plugin SimTech
+Jun 28 10:45:22 gits modem-manager: Loaded plugin MotoC
+Jun 28 10:45:22 gits modem-manager: Loaded plugin AnyData
+Jun 28 10:45:23 gits modem-manager: Loaded plugin Novatel
+Jun 28 10:45:23 gits modem-manager: Loaded plugin Huawei
+Jun 28 10:45:23 gits NetworkManager[1446]: <info> monitoring kernel firmware directory '/lib/firmware'.
+Jun 28 10:45:23 gits NetworkManager[1446]: <info> Bonding/Bridging/VLAN support disabled
+Jun 28 10:45:23 gits NetworkManager[1446]:    ifcfg-rh: Acquired D-Bus service com.redhat.ifcfgrh1
+Jun 28 10:45:23 gits NetworkManager[1446]: <info> Loaded plugin ifcfg-rh: (c) 2007 - 2008 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+Jun 28 10:45:23 gits NetworkManager[1446]: <info> Loaded plugin keyfile: (c) 2007 - 2008 Red Hat, Inc.  To report bugs please use the NetworkManager mailing list.
+Jun 28 10:45:23 gits NetworkManager[1446]:    ifcfg-rh: parsing /etc/sysconfig/network-scripts/ifcfg-lo ... 
+Jun 28 10:45:23 gits NetworkManager[1446]:    ifcfg-rh: parsing /etc/sysconfig/network-scripts/ifcfg-eth0 ... 
+Jun 28 10:45:23 gits NetworkManager[1446]:    ifcfg-rh:     read connection 'System eth0'
+Jun 28 10:45:23 gits NetworkManager[1446]: <info> WiFi enabled by radio killswitch; enabled by state file
+Jun 28 10:45:23 gits NetworkManager[1446]: <info> WWAN enabled by radio killswitch; enabled by state file
+Jun 28 10:45:23 gits NetworkManager[1446]: <info> WiMAX enabled by radio killswitch; enabled by state file
+Jun 28 10:45:23 gits NetworkManager[1446]: <info> Networking is enabled by state file
+Jun 28 10:45:30 gits kernel: 802.1Q VLAN Support v1.8 Ben Greear <greearb@candelatech.com>
+Jun 28 10:45:30 gits kernel: All bugs added by David S. Miller <davem@redhat.com>
+Jun 28 10:45:32 gits NetworkManager[1446]: <info> (eth0): carrier is ON
+Jun 28 10:45:33 gits NetworkManager[1446]: <info> (eth0): new Ethernet device (driver: '8139cp' ifindex: 2)
+Jun 28 10:45:33 gits NetworkManager[1446]: <info> (eth0): exported as /org/freedesktop/NetworkManager/Devices/0
+Jun 28 10:45:33 gits NetworkManager[1446]: <info> (eth0): now managed
+Jun 28 10:45:33 gits NetworkManager[1446]: <info> (eth0): device state change: unmanaged -> unavailable (reason 'connection-assumed') [1 2 41]
+Jun 28 10:45:33 gits NetworkManager[1446]: <info> (eth0): preparing device.
+Jun 28 10:45:33 gits NetworkManager[1446]: <info> Activation (eth0) starting connection 'System eth0'
+Jun 28 10:45:33 gits NetworkManager[1446]: (nm-device.c:3454):nm_device_activate: runtime check failed: (priv->state == NM_DEVICE_STATE_DISCONNECTED)
+Jun 28 10:45:33 gits NetworkManager[1446]: <info> (eth0): device state change: unavailable -> ip-config (reason 'none') [2 7 0]
+Jun 28 10:45:33 gits NetworkManager[1446]: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) scheduled.
+Jun 28 10:45:33 gits NetworkManager[1446]: <info> modem-manager is now available
+Jun 28 10:45:33 gits NetworkManager[1446]: <info> Trying to start the supplicant...
+Jun 28 10:45:33 gits NetworkManager[1446]: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) started...
+Jun 28 10:45:33 gits NetworkManager[1446]: <info> Activation (eth0) Stage 4 of 5 (IP4 Configure Get) scheduled...
+Jun 28 10:45:33 gits NetworkManager[1446]: <info> Activation (eth0) Stage 3 of 5 (IP Configure Start) complete.
+Jun 28 10:45:33 gits NetworkManager[1446]: <info> Activation (eth0) Stage 4 of 5 (IP4 Configure Get) started...
+Jun 28 10:45:33 gits NetworkManager[1446]: <info> Activation (eth0) Stage 5 of 5 (IP Configure Commit) scheduled...
+Jun 28 10:45:33 gits NetworkManager[1446]: <info> Activation (eth0) Stage 4 of 5 (IP4 Configure Get) complete.
+Jun 28 10:45:33 gits NetworkManager[1446]: <info> Activation (eth0) Stage 5 of 5 (IP Configure Commit) started...
+Jun 28 10:45:39 gits NetworkManager[1446]: <info> (eth0): device state change: ip-config -> activated (reason 'none') [7 8 0]
+Jun 28 10:45:47 gits NetworkManager[1446]: <info> Policy set 'System eth0' (eth0) as default for IPv4 routing and DNS.
+Jun 28 10:45:47 gits NetworkManager[1446]: <info> Activation (eth0) successful, device activated.
+Jun 28 10:45:47 gits NetworkManager[1446]: <info> Activation (eth0) Stage 5 of 5 (IP Configure Commit) complete.
+Jun 28 10:45:53 gits NetworkManager[1446]: <info> wpa_supplicant started
+Jun 28 10:45:58 gits acpid: starting up
+Jun 28 10:45:59 gits acpid: 1 rule loaded
+Jun 28 10:45:59 gits acpid: waiting for events: event logging is off
+Jun 28 10:46:22 gits acpid: client connected from 1642[68:68]
+Jun 28 10:46:22 gits acpid: 1 client rule loaded
+Jun 28 10:46:33 gits automount[1667]: lookup_read_master: lookup(nisplus): couldn't locate nis+ table auto.master
+Jun 28 10:47:11 gits kdump: mkdumprd: failed to make kdump initrd
+Jun 28 10:47:54 gits abrtd: Init complete, entering main loop
+Jun 28 10:51:43 gits gnome-session[4039]: WARNING: Application 'metacity.desktop' failed to register before timeout
+Jun 28 10:53:05 gits polkitd[4094]: started daemon version 0.96 using authority implementation `local' version `0.96'
+Jun 28 10:53:05 gits polkitd[4085]: started daemon version 0.96 using authority implementation `local' version `0.96'
+Jun 28 10:53:10 gits rtkit-daemon[4098]: Sucessfully made thread 4096 of process 4096 (/usr/bin/pulseaudio) owned by '42' high priority at nice level -11.
+Jun 28 10:53:26 gits rtkit-daemon[4098]: Sucessfully made thread 4105 of process 4096 (/usr/bin/pulseaudio) owned by '42' RT at priority 5.
+Jun 28 10:53:27 gits kernel: snd_hda_intel 0000:00:04.0: Invalid position buffer, using LPIB read method instead.
+Jun 28 10:53:38 gits rtkit-daemon[4098]: Sucessfully made thread 4109 of process 4096 (/usr/bin/pulseaudio) owned by '42' RT at priority 5.
+Jul  3 03:44:01 gits rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="1360" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
